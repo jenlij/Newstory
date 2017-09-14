@@ -1,7 +1,11 @@
 # Newstory
 
 ## Specs
-1. Button link to general url
-2. Host static site on Heroku
-3. Display different links for each of the 3 sizes
-4. Collect Sign up email or org
+### Things to make
+1. JS file
+2. CSS file
+3. HTML form for sign in that collect email address and gives 3 options for banner
+4. store these emails somewhere?
+
+
+
