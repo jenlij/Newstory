@@ -1,0 +1,315 @@
+.section {
+  height: 100vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url('../images/kids-jumping12.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.section._2 {
+  background-image: url('../images/kids-jumping14.png');
+}
+
+.section._3 {
+  background-image: url('../images/kids-jumping553.png');
+}
+
+.section.video {
+  background-image: url('../images/Masktransparent.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section._4 {
+  padding-bottom: 25px;
+  background-image: url('../images/1-GiSLXNLx0AND7QEo0titrA-Copy.png');
+  background-position: 0px 50%;
+}
+
+.navbar {
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav-link {
+  margin-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.image {
+  padding-top: 20px;
+}
+
+.hero-h1 {
+  width: 74%;
+  margin-top: 129px;
+  color: #fff;
+  font-size: 108px;
+  line-height: 104px;
+  font-weight: 700;
+}
+
+.hero-h1.smaller {
+  margin-top: 60px;
+  font-size: 98px;
+  line-height: 94px;
+}
+
+.hero-h1.leveuqe {
+  margin-top: 96px;
+}
+
+.heading {
+  color: #fff;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 13px 20px;
+  border-radius: 3px;
+  background-color: #1e6eff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button.small {
+  margin-top: 24px;
+  padding: 10px 15px;
+  background-color: #1b1464;
+  font-size: 14px;
+}
+
+.button.small._2 {
+  background-color: #2819c5;
+}
+
+.button.small.yellow {
+  background-color: #1e6eff;
+}
+
+.body {
+  font-family: Lato, sans-serif;
+}
+
+.video {
+  height: 100vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url('../images/Masktransparent.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background-video {
+  margin-top: 50px;
+}
+
+.overlay-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, .93);
+}
+
+.overlay-wrapper.medium {
+  left: 0px;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  height: 50%;
+  padding-top: 15px;
+}
+
+.overlay-wrapper.small {
+  left: auto;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  width: 380px;
+  height: 50%;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.overlay-container {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  color: #555;
+  text-align: center;
+}
+
+.overlay-container.medium {
+  width: 60%;
+  padding-top: 10px;
+}
+
+.overlay-container.small {
+  width: 100%;
+}
+
+.h1-overlay {
+  margin-top: 10px;
+  font-family: Selima, sans-serif;
+  font-size: 58px;
+  line-height: 54px;
+  font-weight: 400;
+}
+
+.h1-overlay.small {
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.overlay-button {
+  border-radius: 3px;
+  background-color: #1dbbd8;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+}
+
+.image-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h4-overlay {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.h4-overlay.small {
+  font-size: 16px;
+}
+
+.close-overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  margin-top: 11px;
+  margin-right: 13px;
+  font-family: 'Varela Round', sans-serif;
+  color: #555;
+  font-size: 25px;
+}
+
+.close-overlay.medium {
+  position: absolute;
+}
+
+.overlay-link-wrapper {
+  color: #555;
+  text-decoration: none;
+}
+
+.text-span {
+  font-size: 85px;
+  line-height: 44px;
+}
+
+.text-span.small {
+  font-family: Lato, sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.text-span-2 {
+  font-family: Lato, sans-serif;
+  font-size: 23px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.text-span-3 {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.overlay-small-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay-small-text.small {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+  .overlay-container {
+    width: 100%;
+  }
+  .overlay-container.medium {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .overlay-wrapper.medium {
+    height: 379px;
+  }
+  .overlay-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 479px) {
+  .overlay-wrapper.medium {
+    height: 527px;
+  }
+  .overlay-wrapper.small {
+    width: auto;
+    height: 331px;
+  }
+  .overlay-container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .overlay-container.small {
+    padding-top: 32px;
+  }
+  .h1-overlay {
+    font-size: 35px;
+  }
+}
+
+@font-face {
+  font-family: 'Selima';
+  src: url('../fonts/Selima-.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
