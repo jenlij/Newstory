@@ -102,7 +102,7 @@ input.w-button {
 }
 
 
-.overlay-wrapper {
+.new-story-overlay-wrapper {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -126,7 +126,7 @@ input.w-button {
   background-color: hsla(0, 0%, 100%, .93);
 }
 
-.overlay-wrapper.medium {
+.overlay-wrapper-medium {
   left: 0px;
   top: auto;
   right: 0px;
@@ -135,7 +135,7 @@ input.w-button {
   padding-top: 15px;
 }
 
-.overlay-wrapper.small {
+.overlay-wrapper-small {
   left: auto;
   top: auto;
   right: 0px;
@@ -148,7 +148,7 @@ input.w-button {
   align-items: flex-end;
 }
 
-.overlay-container {
+.overlay-container-new-story {
   width: 60%;
   height: 100%;
   padding: 20px;
@@ -157,16 +157,16 @@ input.w-button {
   text-align: center;
 }
 
-.overlay-container.medium {
+.overlay-container-medium {
   width: 60%;
   padding-top: 10px;
 }
 
-.overlay-container.small {
+.overlay-container-small {
   width: 100%;
 }
 
-.h1-overlay {
+.new-story-h1-overlay {
   margin-top: 10px;
   font-family: Selima, sans-serif;
   font-size: 58px;
@@ -174,7 +174,7 @@ input.w-button {
   font-weight: 400;
 }
 
-.h1-overlay.small {
+.h1-overlay-small {
   margin-top: 0px;
   font-size: 20px;
   line-height: 20px;
@@ -253,7 +253,7 @@ input.w-button {
 }
 
 @media (max-width: 767px) {
-  .overlay-wrapper.medium {
+  .overlay-wrapper-medium {
     height: 379px;
   }
   .overlay-container {
@@ -262,10 +262,10 @@ input.w-button {
 }
 
 @media (max-width: 479px) {
-  .overlay-wrapper.medium {
+  .overlay-wrapper-medium {
     height: 527px;
   }
-  .overlay-wrapper.small {
+  .overlay-wrapper-small {
     width: auto;
     height: 331px;
   }
@@ -273,7 +273,7 @@ input.w-button {
     padding-right: 5px;
     padding-left: 5px;
   }
-  .overlay-container.small {
+  .overlay-container-small {
     padding-top: 32px;
   }
   .h1-overlay {
