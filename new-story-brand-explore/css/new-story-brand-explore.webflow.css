@@ -1,4 +1,4 @@
-* {
+.new-story-overlay-wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -8,72 +8,7 @@
     cursor: pointer;
 }
 
-button,
-html input[type="button"],
-input[type="reset"] {
-  border: 0;
-  cursor: pointer;
-  -webkit-appearance: button;
-}
-html {
-    height: 100%;
-}
-.section {
-  height: 100vh;
-  padding-right: 50px;
-  padding-left: 50px;
-  background-image: url('../images/kids-jumping12.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.section._2 {
-  background-image: url('../images/kids-jumping14.png');
-}
-
-.section._3 {
-  background-image: url('../images/kids-jumping553.png');
-}
-
-.section.video {
-  background-image: url('../images/Masktransparent.png');
-  background-position: 0px 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.section._4 {
-  padding-bottom: 25px;
-  background-image: url('../images/1-GiSLXNLx0AND7QEo0titrA-Copy.png');
-  background-position: 0px 50%;
-}
-
-.navbar {
-  background-color: transparent;
-  color: #fff;
-}
-
-.nav-link {
-  margin-top: 15px;
-  padding-right: 30px;
-  padding-left: 30px;
-  font-family: Lato, sans-serif;
-  color: #fff;
-  font-weight: 700;
-}
-
-.image {
-  padding-top: 20px;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-input.w-button {
-    -webkit-appearance: button;
-  }
-.w-button {
+.w-button-new-story {
     display: inline-block;
     padding: 9px 15px;
     background-color: #3898EC;
@@ -142,6 +77,7 @@ input.w-button {
   bottom: 0px;
   width: 380px;
   height: 50%;
+  padding-top: 40px;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -180,7 +116,7 @@ input.w-button {
   line-height: 20px;
 }
 
-.overlay-button {
+.new-story-overlay-button {
   border-radius: 3px;
   background-color: #1dbbd8;
   font-size: 16px;
@@ -244,7 +180,7 @@ input.w-button {
 }
 
 @media (max-width: 991px) {
-  .overlay-container {
+  .overlay-container-new-story {
     width: 100%;
   }
   .overlay-container-medium {
