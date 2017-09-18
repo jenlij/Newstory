@@ -31,9 +31,10 @@
   }
 
 .image-new-story-october {
-    max-width: 100%;
+    max-width: 300px;
     vertical-align: middle;
     display: inline-block;
+    padding-top: 30px;
 }
 
 
