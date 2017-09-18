@@ -1,4 +1,4 @@
-* {
+.new-story-overlay-wrapper {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -8,72 +8,7 @@
     cursor: pointer;
 }
 
-button,
-html input[type="button"],
-input[type="reset"] {
-  border: 0;
-  cursor: pointer;
-  -webkit-appearance: button;
-}
-html {
-    height: 100%;
-}
-.section {
-  height: 100vh;
-  padding-right: 50px;
-  padding-left: 50px;
-  background-image: url('../images/kids-jumping12.png');
-  background-position: 0px 0px;
-  background-size: cover;
-}
-
-.section._2 {
-  background-image: url('../images/kids-jumping14.png');
-}
-
-.section._3 {
-  background-image: url('../images/kids-jumping553.png');
-}
-
-.section.video {
-  background-image: url('../images/Masktransparent.png');
-  background-position: 0px 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.section._4 {
-  padding-bottom: 25px;
-  background-image: url('../images/1-GiSLXNLx0AND7QEo0titrA-Copy.png');
-  background-position: 0px 50%;
-}
-
-.navbar {
-  background-color: transparent;
-  color: #fff;
-}
-
-.nav-link {
-  margin-top: 15px;
-  padding-right: 30px;
-  padding-left: 30px;
-  font-family: Lato, sans-serif;
-  color: #fff;
-  font-weight: 700;
-}
-
-.image {
-  padding-top: 20px;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-input.w-button {
-    -webkit-appearance: button;
-  }
-.w-button {
+.w-button-new-story {
     display: inline-block;
     padding: 9px 15px;
     background-color: #3898EC;
@@ -102,7 +37,7 @@ input.w-button {
 }
 
 
-.overlay-wrapper {
+.new-story-overlay-wrapper {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -126,7 +61,7 @@ input.w-button {
   background-color: hsla(0, 0%, 100%, .93);
 }
 
-.overlay-wrapper.medium {
+.overlay-wrapper-medium {
   left: 0px;
   top: auto;
   right: 0px;
@@ -135,20 +70,21 @@ input.w-button {
   padding-top: 15px;
 }
 
-.overlay-wrapper.small {
+.overlay-wrapper-small {
   left: auto;
   top: auto;
   right: 0px;
   bottom: 0px;
   width: 380px;
   height: 50%;
+  padding-top: 40px;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
 }
 
-.overlay-container {
+.overlay-container-new-story {
   width: 60%;
   height: 100%;
   padding: 20px;
@@ -157,16 +93,16 @@ input.w-button {
   text-align: center;
 }
 
-.overlay-container.medium {
+.overlay-container-medium {
   width: 60%;
   padding-top: 10px;
 }
 
-.overlay-container.small {
+.overlay-container-small {
   width: 100%;
 }
 
-.h1-overlay {
+.new-story-h1-overlay {
   margin-top: 10px;
   font-family: Selima, sans-serif;
   font-size: 58px;
@@ -174,20 +110,20 @@ input.w-button {
   font-weight: 400;
 }
 
-.h1-overlay.small {
+.h1-overlay-small {
   margin-top: 0px;
   font-size: 20px;
   line-height: 20px;
 }
 
-.overlay-button {
+.new-story-overlay-button {
   border-radius: 3px;
   background-color: #1dbbd8;
   font-size: 16px;
   letter-spacing: 0.25px;
 }
 
-.h4-overlay {
+.new-story-h4-overlay {
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 18px;
@@ -195,11 +131,11 @@ input.w-button {
   margin-top: 10px;
 }
 
-.h4-overlay.small {
+.h4-overlay-small {
   font-size: 16px;
 }
 
-.close-overlay {
+.new-story-close-overlay {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -210,7 +146,7 @@ input.w-button {
   font-size: 25px;
 }
 
-.close-overlay.medium {
+.close-overlay-medium {
   position: absolute;
 }
 
@@ -230,53 +166,53 @@ input.w-button {
   font-weight: 900;
 }
 
-.overlay-small-text {
+.new-story-overlay-small-text {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
 }
 
-.overlay-small-text.small {
+.overlay-small-text-small {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 16px;
 }
 
 @media (max-width: 991px) {
-  .overlay-container {
+  .overlay-container-new-story {
     width: 100%;
   }
-  .overlay-container.medium {
+  .overlay-container-medium {
     width: 90%;
   }
 }
 
 @media (max-width: 767px) {
-  .overlay-wrapper.medium {
+  .overlay-wrapper-medium {
     height: 379px;
   }
-  .overlay-container {
+  .overlay-container-new-story {
     width: 95%;
   }
 }
 
 @media (max-width: 479px) {
-  .overlay-wrapper.medium {
+  .overlay-wrapper-medium {
     height: 527px;
   }
-  .overlay-wrapper.small {
+  .overlay-wrapper-small {
     width: auto;
     height: 331px;
   }
-  .overlay-container {
+  .overlay-container-new-story {
     padding-right: 5px;
     padding-left: 5px;
   }
-  .overlay-container.small {
+  .overlay-container-small {
     padding-top: 32px;
   }
-  .h1-overlay {
+  .new-story-h1-overlay {
     font-size: 35px;
   }
 }
