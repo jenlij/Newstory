@@ -112,45 +112,7 @@ html {
 .button.small.yellow {
   background-color: #1e6eff;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-h1 {
-  font-size: 38px;
-  line-height: 44px;
-  margin-top: 20px;
-}
-h2 {
-  font-size: 32px;
-  line-height: 36px;
-  margin-top: 20px;
-}
-h3 {
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px;
-}
-h4 {
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 10px;
-}
-h5 {
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 10px;
-}
-h6 {
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 10px;
-}
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -283,6 +245,9 @@ input.w-button {
 .h4-overlay {
   margin-bottom: 20px;
   font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
 }
 
 .h4-overlay.small {
@@ -309,29 +274,15 @@ input.w-button {
   text-decoration: none;
 }
 
-.text-span {
+.new-story-text-span {
   font-size: 85px;
   line-height: 44px;
 }
 
-.text-span.small {
+.new-story-text-span.small {
   font-family: Lato, sans-serif;
   font-size: 35px;
   font-weight: 900;
-}
-
-.text-span-2 {
-  font-family: Lato, sans-serif;
-  font-size: 23px;
-  line-height: 64px;
-  font-weight: 700;
-}
-
-.text-span-3 {
-  font-family: Lato, sans-serif;
-  font-size: 20px;
-  line-height: 34px;
-  font-weight: 700;
 }
 
 .overlay-small-text {
