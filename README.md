@@ -13,12 +13,56 @@
 <h2>Our Tools</h2>
 <p>After much deliberation, our team decided on combining vanilla JavaScript, HTML, and CSS to build the overlays. From there, the files were hosted on AWS to create easily accessiblility.</p>
 
+<h2>Code Snippets</h2>
+<p>Code showcases how we implement the JavaScript into another users website</p>
 
-### Things to make
-1. JS file
-2. CSS file
-3. HTML form for sign in that collect email address and gives 3 options for banner
-4. store these emails somewhere?
+ ``` javascript
 
+function addNewStoryBanner() {
+    const newStoryBanner = 
+    '<div class="new-story-overlay-wrapper">' +
+        '<div class="overlay-container-new-story">' +
+
+            '<img class="image-new-story-october" src="images/overlay-image.png">' +
+            '<h1 class="new-story-h1-overlay">' +
+                '<span class="new-story-text-span">End Survival Mode</span>' +
+            '</h1>' +
+            '<div class="new-story-overlay-small-text">' +
+                '<em>World Housing Day - October 2</em>' +
+            '</div>' +
+            '<h4 class="new-story-h4-overlay">We\'re joining New Story today, on World Housing Day, to help build a home for a family living in survival mode. 100% of all donations directly hire local workers and buy local materials. Join us to #EndSurvivalMode.</h4>' +
+            '<a class="new-story-overlay-button w-button-new-story" href="http://newstorycharity.org" target="_blank" rel="noopener noreferrer">Visit newstorycharity.org</a>' +
+        '</div>' +
+        '<div id="exit-new-story-overlay" class="new-story-close-overlay" data-ix="close-overlay-large">x</div>' +
+    '</div>';
+
+    var bannerLocation = document.getElementById('new-story-overlay-for-october');
+    bannerLocation.innerHTML = newStoryBanner;
+}
+
+// makes exit x work
+function exitOverlayNewStory(){
+    const exitButtonNewStory = document.getElementById("exit-new-story-overlay");
+    const exitNewStoryOverLay = document.getElementById("new-story-overlay-for-october"); 
+    exitButtonNewStory.onclick = function() {
+        exitNewStoryOverLay.style.display = "none";
+    };
+};
+
+addNewStoryBanner();
+exitOverlayNewStory();
+
+
+ ```
+
+<h2>Snapshots</h2>
+<img src="images/smalloverlay.png" alt="small overlay in bottom right" width="400">
+<p>Small overlay with a fixed position in the bottom right corner.</p>
+<br />
+<img src="images/mediumoverlay.png" alt="overlay taking up bottom half of screen" width="400">
+<p>Medium overlay with fixed position at bottom of screen</p>
+<br />
+<img src="images/largeoverlay.png" alt="overlay taking up entire page" width="400">
+<p>Large overlay taking over entire page</p>
 
 

@@ -3,10 +3,7 @@ function addNewStoryBanner() {
     '<div class="new-story-overlay-wrapper">' +
         '<div class="overlay-container-new-story">' +
 
-            '<img class="image-new-story-october" sizes="(max-width: 479px) 91vw, 305px" src="images/overlay-image.png" srcset="images/overlay-image-p-500.png 500w,' + 
-            'images/overlay-image-p-800.png 800w, ' + 'images/overlay-image-p-1080.png 1080w, ' + 'images/overlay-image-p-1600.png 1600w, ' + 
-            'images/overlay-image.png 1796w" width="305">' +
-
+            '<img class="image-new-story-october" src="images/overlay-image.png">' +
             '<h1 class="new-story-h1-overlay">' +
                 '<span class="new-story-text-span">End Survival Mode</span>' +
             '</h1>' +
