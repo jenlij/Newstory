@@ -18,4 +18,4 @@ function addBanner() {
     var bannerLocation = document.getElementById('newstorybanner-medium');
     bannerLocation.innerHTML = banner;
 }
-window.addEventListener('load', addBanner, false);
+addBanner();
