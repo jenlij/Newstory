@@ -17,7 +17,6 @@ function addBanner() {
     var bannerLocation = document.getElementById('new-story-overlay-for-october');
     bannerLocation.innerHTML = banner;
 }
-addBanner();
 
 // makes exit x work
 function exitOverlayNewStory(){
@@ -28,5 +27,5 @@ function exitOverlayNewStory(){
     };
 };
 
-
+addBanner();
 exitOverlayNewStory();
