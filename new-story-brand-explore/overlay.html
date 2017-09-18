@@ -4,10 +4,10 @@
     <link href="css/new-story-brand-explore.webflow.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="body">
+<body id="new-story-overlay-for-october" class="new-story-body">
   <div class="overlay-wrapper">
     <div class="overlay-container">
-      <img sizes="(max-width: 479px) 91vw, 305px" src="images/overlay-image.png" srcset="images/overlay-image-p-500.png 500w, 
+      <img class="image-new-story-october" sizes="(max-width: 479px) 91vw, 305px" src="images/overlay-image.png" srcset="images/overlay-image-p-500.png 500w, 
       images/overlay-image-p-800.png 800w, images/overlay-image-p-1080.png 1080w, images/overlay-image-p-1600.png 1600w, 
       images/overlay-image.png 1796w" width="305">
       <h1 class="h1-overlay">
@@ -22,7 +22,8 @@
       </h4>
       <a class="overlay-button w-button" href="http://newstorycharity.org" target="_blank" rel="noopener noreferrer">Visit newstorycharity.org</a>
     </div>
-    <div class="close-overlay" data-ix="close-overlay-large">x</div>
+    <div id="exit-new-story-overlay" class="close-overlay" data-ix="close-overlay-large">x</div>
   </div>
+  <script type="text/javascript"src="./js/main.js"></script>
 </body>
 </html>
