@@ -66,53 +66,6 @@ html {
   padding-top: 20px;
 }
 
-.hero-h1 {
-  width: 74%;
-  margin-top: 129px;
-  color: #fff;
-  font-size: 108px;
-  line-height: 104px;
-  font-weight: 700;
-}
-
-.hero-h1.smaller {
-  margin-top: 60px;
-  font-size: 98px;
-  line-height: 94px;
-}
-
-.hero-h1.leveuqe {
-  margin-top: 96px;
-}
-
-.heading {
-  color: #fff;
-}
-
-.button {
-  margin-top: 10px;
-  padding: 13px 20px;
-  border-radius: 3px;
-  background-color: #1e6eff;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.button.small {
-  margin-top: 24px;
-  padding: 10px 15px;
-  background-color: #1b1464;
-  font-size: 14px;
-}
-
-.button.small._2 {
-  background-color: #2819c5;
-}
-
-.button.small.yellow {
-  background-color: #1e6eff;
-}
-
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -147,9 +100,7 @@ input.w-button {
     vertical-align: middle;
     display: inline-block;
 }
-.background-video {
-  margin-top: 50px;
-}
+
 
 .overlay-wrapper {
   position: fixed;
@@ -234,12 +185,6 @@ input.w-button {
   background-color: #1dbbd8;
   font-size: 16px;
   letter-spacing: 0.25px;
-}
-
-.image-2 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .h4-overlay {
