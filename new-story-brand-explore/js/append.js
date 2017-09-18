@@ -15,7 +15,7 @@ function addBanner() {
                 '<div class="close-overlay medium" data-ix="close-overlay-large">x</div>' +
             '</div>' +
         '</div>';
-    var bannerLocation = document.getElementById('newstorybanner-medium');
+    var bannerLocation = document.getElementById('new-story-body');
     bannerLocation.innerHTML = banner;
 }
 addBanner();
