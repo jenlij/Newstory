@@ -1,0 +1,53 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+@font-face {
+    font-family: 'Selima';
+    src: url('Selima-.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.tagline {
+    font-family: 'Selima', 'Lato', sans-serif;
+    font-size: 5em;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.sizes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.small {
+    width: 100%;
+    padding: 10px;
+}
+
+.medium {
+    width: 100%;
+    padding: 10px;
+}
+.large {
+    width: 100%;
+    padding: 10px;
+}
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    background: rgb(113,227,208);
+}
