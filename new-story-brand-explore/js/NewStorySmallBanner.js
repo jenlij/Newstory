@@ -1,18 +1,18 @@
 function addNewStoryBanner() {
     const newStoryBanner = 
-    '<div class="overlay-wrapper-medium new-story-overlay-wrapper">' + 
-        '<div class="overlay-container-medium overlay-container-new-story">' +
-            '<h1 class="new-story-h1-overlay">' +
-                '<span class="new-story-text-span">End Survival Mode</span>' +
+    '<div class="overlay-wrapper-small new-story-overlay-wrapper">' +
+        '<div class="overlay-container-small overlay-container-new-story">' +
+            '<h1 class="h1-overlay-small new-story-h1-overlay">'+
+                '<span class="new-story-text-span small">End Survival Mode</span>' +
             '</h1>' +
-            '<div class="new-story-overlay-small-text">' +
+            '<div class="new-story-overlay-small-text overlay-small-text-small">' +
                 '<em>World Housing Day - October 2</em>' +
             '</div>' +
-            '<h4 class="new-story-h4-overlay"> We\'re joining New Story today, on World Housing Day, to help build a home for a family living in survival mode. 100% of all donations directly hire local workers and buy local materials. Join us to #EndSurvivalMode.</h4>' +
+            '<h4 class="new-story-h4-overlay h4-overlay-small"> We\'re joining New Story today, on World Housing Day, to help build a home for a family living in survival mode. 100% of all donations directly hire local workers and buy local materials. Join us to #EndSurvivalMode.</h4>' +
             '<a class="new-story-overlay-button w-button-new-story" href="http://newstorycharity.org" target="_blank">Visit newstorycharity.org</a>' +
-            '<div id="exit-new-story-overlay" class="new-story-close-overlay close-overlay-medium" >x</div>' +
         '</div>' +
-    '</div>';
+        '<div id="exit-new-story-overlay" class="new-story-close-overlay close-overlay-medium " data-ix="close-overlay-large">x</div>' +
+    '</div>'
     var bannerLocation = document.getElementById('new-story-overlay-for-october');
     bannerLocation.innerHTML = newStoryBanner;
 }
