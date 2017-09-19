@@ -56,13 +56,13 @@ exitOverlayNewStory();
  ```
 
 <h2>Snapshots</h2>
-<img src="images/smalloverlay.png" alt="small overlay in bottom right" width="400">
+<img src="./Final/images/smalldemo.png" alt="small overlay in bottom right" width="400">
 <p>Small overlay with a fixed position in the bottom right corner.</p>
 <br />
-<img src="images/mediumoverlay.png" alt="overlay taking up bottom half of screen" width="400">
+<img src="./Final/images/mediumdemo.png" alt="overlay taking up bottom half of screen" width="400">
 <p>Medium overlay with fixed position at bottom of screen</p>
 <br />
-<img src="images/largeoverlay.png" alt="overlay taking up entire page" width="400">
+<img src="./Final/images/largedemo.png" alt="overlay taking up entire page" width="400">
 <p>Large overlay taking over entire page</p>
 
 
