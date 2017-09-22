@@ -8,8 +8,8 @@
 <p>Our team teamed up with Newstory to build an overlay for October 2nd, 2017, World Housing Day. Newstory wanted to get the word out that anyone can help donate to this wonderful cause.</p>
 
 <h2>Development Team</h2>
-<p><b>Jennifer Johnson:</b>https://www.linkedin.com/in/jenniferlijohnson/ | https://github.com/jenlij
-<b>Katherine Lane:</b>https://www.linkedin.com/in/katherine-lane/ | https://github.com/MaeDae11
+<p><b>Jennifer Johnson:</b>https://www.linkedin.com/in/jenniferlijohnson/ | https://github.com/jenlij <br>
+<b>Katherine Lane:</b>https://www.linkedin.com/in/katherine-lane/ | https://github.com/MaeDae11 <br>
 <b>Stephanie Asmar:</b>https://www.linkedin.com/in/stephanieasmar/ | https://github.com/stephanieasmar
 </p>
 
