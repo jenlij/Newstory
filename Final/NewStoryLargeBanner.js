@@ -32,5 +32,12 @@ function exitOverlayNewStory(){
     };
 };
 
-addNewStoryBanner();
-exitOverlayNewStory();
+function checkDate() {
+    var date = new Date();
+    if(date.getUTCFullYear() === 2017 && date.getUTCMonth() === 9 && ((date.getUTCDate() === 1) || (date.getUTCDate() === 2) || (date.getUTCDate() === 3))){ //oct 1-3 2017
+        addNewStoryBanner();
+        exitOverlayNewStory();
+    }
+}
+
+checkDate();
