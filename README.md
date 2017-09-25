@@ -1,7 +1,7 @@
 # Newstory
 
 <h2>Who is Newstory</h2>
-<p><em>Their vision:</em> "New Story is a non-profit working to create a world where no human being lives in survival mode."</p>
+<p><em>Their vision:</em> "[New Story](https://newstorycharity.org/) is a non-profit working to create a world where no human being lives in survival mode."</p>
 <p>Newstory is a non-profit charity based in San Fransisco. Since 2015, their donors have funded over 900+ homes for families living around the world. Through their organization, people can sponser a family, donate monthly, and even invite friends to help build a home.</p>
 
 <h2>Our Helping Hand</h2>
